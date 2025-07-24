@@ -1,0 +1,79 @@
+adicione tamanhos para as imagens menores:                                <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Relatório de Experiência - Flexbox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Relatório de Experiência</h1>
+
+  <h2>Nome completo:</h2>
+  <p>Ellen Alves de Oliveira</p>
+
+  <h2>Jogos Escolhidos</h2>
+  <ul>
+    <li>
+      <strong>Flexbox Froggy</strong> – 
+      <a href="https://flexboxfroggy.com/" target="_blank">https://flexboxfroggy.com/</a><br>
+      <em>Gostei bastante desse jogo porque ensina cada etapa de forma divertida e clara.</em>
+    </li>
+    <li>
+      <strong>Flexbox Zombies</strong> – 
+      <a href="https://mastery.games/flexboxzombies/" target="_blank">https://mastery.games/flexboxzombies/</a><br>
+      <em>Escolhi esse porque, além de ser bem diferente, aprofunda mais nas explicações e nos desafios práticos.</em>
+    </li>
+  </ul>
+
+  <h2>Registro de Níveis Desafiadores</h2>
+
+  <h3>Flexbox Froggy</h3>
+  <div class="screenshot">
+    <p><strong>Nível 3:</strong> Achei interessante porque foi a primeira vez que precisei pensar no alinhamento horizontal usando justify-content. Embora tenha sido tranquilo, exigiu atenção para entender como os elementos se comportam no eixo principal.</p>
+    <img src="img/print1 .png" alt="Nível 3 - Flexbox Froggy">
+  </div>
+  <div class="screenshot">
+    <p><strong>Nível 10:</strong> Esse foi mais desafiador. A propriedade space-around não é tão intuitiva no início, e entender como o espaço é distribuído em volta dos itens leva um tempinho.</p>
+    <img src="img/print 2.png" alt="Nível 10 - Flexbox Froggy">
+  </div>
+  <div class="screenshot">
+    <p><strong>Nível 13:</strong> Aqui o foco foi alinhar os itens no eixo vertical usando align-items. Foi útil para diferenciar bem o que cada propriedade faz, comparando com o alinhamento horizontal do justify-content.</p>
+    <img src="img/print3.png" alt="Nível 13 - Flexbox Froggy">
+  </div>
+
+  <h3>Flexbox Zombies</h3>
+  <div class="screenshot">
+    <p><strong>Capítulo 3 - Nível 2:</strong> Precisei usar justify-content com precisão para posicionar o caçador corretamente em relação aos zumbis. Um erro mínimo já desalinhar tudo.</p>
+    <img src="img/print0.1 jogo1.png" alt="Capítulo 3 Nível 2 - Flexbox Zombies">
+  </div>
+  <div class="screenshot">
+    <p><strong>Capítulo 5 - Nível 1:</strong> O uso de flex-grow e flex-shrink foi novidade para mim. Levei um tempo para entender como balancear os tamanhos dos elementos.</p>
+    <img src="img/print 0.2 jogo1.png" alt="Capítulo 5 Nível 1 - Flexbox Zombies">
+  </div>
+  <div class="screenshot">
+    <p><strong>Capítulo 6 - Nível 3:</strong> Esse nível bagunçou minha lógica ao misturar order com flex-direction: row-reverse. Demorou um pouco para eu entender o que estava acontecendo.</p>
+    <img src="img/print0.3 jg1.png" alt="Capítulo 6 Nível 3 - Flexbox Zombies">
+  </div>
+
+  <h2>Reflexão e Aplicação Prática</h2>
+
+  <h3>Propriedades CSS Utilizadas</h3>
+  <ul>
+    <li><strong>display: flex</strong> – transforma o container em flexível.</li>
+    <li><strong>flex-direction</strong> – define a direção dos itens (linha, coluna, etc.).</li>
+    <li><strong>justify-content</strong> – alinha os itens no eixo principal.</li>
+    <li><strong>align-items</strong> – alinha os itens no eixo perpendicular.</li>
+    <li><strong>align-self</strong> – permite alinhar um item individualmente.</li>
+    <li><strong>flex-wrap</strong> – permite a quebra de linha dos itens.</li>
+    <li><strong>flex-grow</strong> – define se e como os itens crescem.</li>
+    <li><strong>flex-shrink</strong> – controla como os itens encolhem.</li>
+    <li><strong>order</strong> – altera a ordem visual dos itens.</li>
+    <li><strong>flex-basis</strong> – define o tamanho inicial do item antes de aplicar grow ou shrink.</li>
+  </ul>
+   
+    <h3>Aplicação prática com Flexbox</h3>
+  <p>Para montar uma galeria de fotos que se adapta ao tamanho da tela, usaria Flexbox para alinhar os cards em linhas que podem quebrar para a próxima quando não couberem mais. Assim, os cards crescem e encolhem, ficando sempre bem distribuídos e organizados.</p>
+  
+</body>
+</html>
